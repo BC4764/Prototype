@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="GPNHome" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="486.0" prefWidth="610.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.221" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="GPEvents" layoutX="44.0" layoutY="120.0" mnemonicParsing="false" onAction="#GracePlaceEvents" prefHeight="78.0" prefWidth="173.0" style="-fx-background-color: gold;" text="Grace Place Upcoming Events" />
+      <Button fx:id="GPArticles" layoutX="43.0" layoutY="216.0" mnemonicParsing="false" onAction="#GPNArticles" prefHeight="78.0" prefWidth="174.0" style="-fx-background-color: gold;" text="Grace Place Articles" />
+      <Button fx:id="GPContact" layoutX="43.0" layoutY="322.0" mnemonicParsing="false" onAction="#GPNContact" prefHeight="78.0" prefWidth="174.0" style="-fx-background-color: gold;" text="Contact Us" />
+      <Button fx:id="GPApplications" layoutX="396.0" layoutY="120.0" mnemonicParsing="false" onAction="#GPNapplications" prefHeight="78.0" prefWidth="173.0" style="-fx-background-color: gold;" text="Application Submissions" />
+      <Button fx:id="GPPrograms" layoutX="396.0" layoutY="216.0" mnemonicParsing="false" onAction="#GPNPrograms" prefHeight="78.0" prefWidth="173.0" style="-fx-background-color: gold;" text="Programs" />
+      <Button fx:id="GPNotifications" layoutX="396.0" layoutY="322.0" mnemonicParsing="false" onAction="#GPNNotifications" prefHeight="78.0" prefWidth="173.0" style="-fx-background-color: gold;" text="Notifications" />
+      <Label layoutX="183.0" layoutY="26.0" text="Grace Place News " textFill="WHITE">
+         <font>
+            <Font name="Niagara Engraved" size="57.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="GPN" fitHeight="150.0" fitWidth="200.0" layoutX="233.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../OneDrive/Pictures/gpregisteredlogo110_115.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
